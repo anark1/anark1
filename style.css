@@ -1,144 +1,53 @@
-html, body {
-text-align: center;
-}
-p {text-align: left;}
-
 body {
-	margin: 0;
-	padding: 0;
-	background: #666666;
-	font-family:  Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	color: #F1F5F8;
-  background: #111111 ;
-}
-*
-{
-  margin: 0 auto 0 auto;
- text-align:left;}
-
-#page
-{
-  margin: 0 auto 0 auto; 
-  margin-top:25px;
-  display: block; 
-  height:auto;
-  position: relative; 
-  overflow: hidden; 
-  width: 614px;
+    background-color: #2B2929;
+    color: gainsboro;
+    font: Monospace;
 }
 
+.bottomside {
 
-
-
-#titlebar h1
-{
-padding-left:21px;
-margin-top:8px;
-margin-left:5px;
-width:510px;
-position:relative;
-color:#FFFFFF;
-text-align:left;
-font-size:14px;
-font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100px;
+    margin: auto;
 }
 
-
-
-
-#bar
-{
-padding-left:4px;
-text-align:left;
-font-family:Tahoma, "Tahoma", "Trebuchet MS", Arial;
-font-size:11px;
+.active {
+    background-color: #AE81FF;
 }
 
-#bar ul {
-	padding: 0px;
-	list-style-type: none;
-	height:21px;
-	text-align:left;
-}
-#bar ul li , #bar ul li a, #bar ul li a:visited{
-	height:21px;
-	margin: 0px;
-	padding: 5px;
-	padding-left:2px;
-	padding-right:2px;
-	height: 21px;
-	overflow: hidden;
-	display: inline;
-	text-align:center;
-	line-height:18px;
-	color:#FFFFFF;
-
-	text-decoration:none;
+.active:hover {
+    color: #1E1F1C;
 }
 
-
-#bar ul li a:hover
-{
-color:#FFFFFF;
+ul {
+    position: sticky;
+    background-color: #1E1F1C;
+    border-top: 2px solid #AE81FF;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-#bar ul li:hover
-{
-height:21px;
-background:#316AC5;
+li {
+    
+    float: left;
 }
 
-#main
-{
-
-  width: 579px;
-  padding-top:0px;
-  padding-left:7px;
-  padding-right:28px;
-  font-family: "Lucida Console", Lucida Console, "Tahoma", "Trebuchet MS", Arial;
-  color:#FFFFFF;
+li a {
+    display: block;
+    color: gainsboro;
+    padding: 10px 25px;
+    text-decoration: none;
 }
 
-
-#footer a, #footer a:visited, #footer a:hover
-{
-font-size:9px;
-color:#E2E2E0;
+li a:hover {
+    background: #AE81FF;
+    color: #1E1F1C;
 }
 
-
-#footer a:hover
-{
-color:#BCBCBC;
-}
-
-
-
-html, body {
-text-align: center;
-}
-p {
-padding-top:0px;
-padding-bottom:15px;
-text-align: left;
-text-align:justify;
-}
-
-#main a
-{
-text-decoration:underline;
-color:#373737;
-}
-
-#main a:hover
-{
-text-decoration:none;
-color:#999999;
-}
-
-#main h1
-{
-  font-family: "Lucida Console", Lucida Console, "Tahoma", "Trebuchet MS", Arial;
-  font-size:13px;
+h1 {
+    color: whitesmoke;
+    /*background-color: dimgrey;*/
+    margin-top: 40px;
 }

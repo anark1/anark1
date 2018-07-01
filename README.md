@@ -1,1 +1,1 @@
-This is my super easy website. thx
+Simple website, nothing interesting
